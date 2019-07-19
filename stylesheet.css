@@ -1,0 +1,91 @@
+.top-wrapper {
+  padding: 400px 0 100px;
+  background-image: url(img/komkompurin.jpg);
+  color: white;
+  background-size: cover;
+
+}
+
+.top-wrapper h1 {
+  color: black;
+  opacity: 0.8;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.top-wrapper h2 {
+  color: red;
+  opacity: 0.8;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: pink;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+  color: pink
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 1s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
